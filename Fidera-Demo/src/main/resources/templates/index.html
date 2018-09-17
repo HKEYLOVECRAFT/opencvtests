@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Fidera Demo</title>
+    </head>
+
+    <body>
+        
+        <h2>Fidera Demo</h2>        
+        
+        <div th:insert="dataListFragment :: dataList" id="dataBlock"></div>
+
+        <script type="text/javascript" src="/webjars/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" th:src="@{/js/script.js}"></script>
+    </body>
+
+
+</html>
